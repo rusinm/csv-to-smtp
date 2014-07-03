@@ -36,7 +36,7 @@ Step 4: **Run** the project as a Mule application
 
 Step 5: Navigate to src.main.resources under src/main/app and **copy the 'input.csv' file** into the test folder that you just created on your Desktop. If you have configured and run this example correctly, the csv file should disappear from the the test folder almost immediately.
 
-Step 5: Login to receiveremailid@gmail.com to **verify** if the sales data was received via email in a JSON format. You should get an email that has the following content:
+Step 5: Login to receiveremailid@gmail.com to **verify** if the sales data was received via email. You should get an email that has the following content:
 
     [{orderId=1, name=aaa, units=2.0, pricePerUnit=10.0, totalPrice=20.0}, {orderId=2, name=bbb, units=4.15, pricePerUnit=5.0, totalPrice=20.75}]
 
