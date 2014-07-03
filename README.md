@@ -1,5 +1,5 @@
-# CSV to SMTP
-=================
+# Sending a CSV file to gmail using SMTP
+
 
 This example shows you how to use the SMTP connector to facilitate information transfer through email. It also illustrates how you can use the File connector to input a a csv file and then tranform it using the daatmapper transformer.
 
@@ -9,7 +9,7 @@ This document describes the details of the example within the context of Anypoin
 
 ### Example Use Case
 
-In this example a CSV file containing sample sales data which is stored in the local directory is converted to the JSON format using the datamapper and is sent to an email address using the SMTP connector. The Datamapper also computes the total price for each order by multiplying the unit price with the number of units. This example has been configured for gmail.
+In this example a CSV file containing sample sales data which is stored in the local directory is converted to the JSON format using the datamapper and is sent to an email address using the SMTP connector. The Datamapper also computes the total price for each order by multiplying the unit price with the number of units. This example has been configured for Google's gmail.
 
 ### Set Up and Run this Example
 
